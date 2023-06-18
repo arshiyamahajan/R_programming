@@ -4,7 +4,7 @@ It should be noted that the data was cleaned before analysis. Only the relevant 
 
 Let us start!
 
-#### - Summary of all the relevant parameters that form the basis of coffee judgment.
+### - Summary of all the relevant parameters that form the basis of coffee judgment.
 
 This will help us understand our coffee judgement parameters in a more refined manner. 
 
@@ -64,6 +64,7 @@ print(country_varieties)
 ````
 
 **Results:**
+
 <img width="1317" alt="country_varities" src="https://github.com/arshiyamahajan/R_programming/assets/136816563/adfa30dc-5538-436d-8abc-f5fdabe9bd31">
 
 #### - It becomes relevant to note the most produced varieties.
@@ -78,6 +79,7 @@ print(most_produced_varieties)
 ````
 
 **Results:**
+
 <img width="176" alt="most_produced_varities" src="https://github.com/arshiyamahajan/R_programming/assets/136816563/63d33351-f83f-4f8b-99c0-d650434826cf">
 
 "Caturra", "Gesha", "Typica" are the most produced varieties.
