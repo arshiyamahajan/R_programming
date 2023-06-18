@@ -16,7 +16,7 @@ summary(coffee)
 
 <img width="783" alt="summary_of_data" src="https://github.com/arshiyamahajan/R_programming/assets/136816563/bafaf90a-9344-4500-a6de-68a5bb37a36b">
 
-#### - Comparing countries on the basis of Processing Method along with graph.
+### - Comparing countries on the basis of Processing Method along with graph.
 
 This will help us gain insight into the most-used processing method for different countries and whether these processing methods vary for different places. 
 
@@ -51,7 +51,7 @@ ggplot(result, aes(x = Country_of_Origin, y = count, fill = Processing_Method)) 
 
 It can be clearly observed that "Washed/Wet" is the most used processing method for majority of the countries.
 
-#### - Now, let's find out the variety produced by each country.
+### - Now, let's find out the variety produced by each country.
 
 This aims to provide the different varieties of coffee produced by each country. 
 ````R
@@ -67,7 +67,7 @@ print(country_varieties)
 
 <img width="1317" alt="country_varities" src="https://github.com/arshiyamahajan/R_programming/assets/136816563/adfa30dc-5538-436d-8abc-f5fdabe9bd31">
 
-#### - It becomes relevant to note the most produced varieties.
+### - It becomes relevant to note the most produced varieties.
 ````R
 most_produced_varieties <- coffee %>%
   group_by(Variety) %>%
@@ -84,7 +84,7 @@ print(most_produced_varieties)
 
 "Caturra", "Gesha", "Typica" are the most produced varieties.
 
-#### - Is there any significant correlatiom between Aroma, Flavour and Aftertaste?
+### - Is there any significant correlatiom between Aroma, Flavour and Aftertaste?
 
 ````R
 correlation_matrix <- cor(coffee[, c("Aroma", "Flavor", "Aftertaste")])
@@ -148,7 +148,7 @@ print(bar_plot)
 
 "Caturra" has the most category two defects followed by "Catuai" and "Bourbon".
 
-#### - Let us now look at the distribution of Coffee Colours throughout the database.
+### - Let us now look at the distribution of Coffee Colours throughout the database.
 
 ````R
 library(ggplot2)
@@ -170,7 +170,7 @@ print(pie_chart)
 **Results:**
 <img width="783" alt="distribution_coffee_colours" src="https://github.com/arshiyamahajan/R_programming/assets/136816563/f0ff87f2-41fa-4435-af67-b96b71aa6ac4">
 
-#### - Which countries have the highest average total cup points?
+### - Which countries have the highest average total cup points?
 
 This question helps identify the countries with the highest overall coffee quality based on the "Total Cup Points" metric.
 
@@ -193,7 +193,7 @@ print(country_avg_points)
 
 "Ethiopia", "Tanzania", "Taiwan" are the top three countries when it comes to highest average total cup points.
 
-#### - We shall now determine the relationship between altitude and coffee quality.
+### - We shall now determine the relationship between altitude and coffee quality.
 
 This question explores whether there is a correlation between the altitude at which coffee is grown and its quality, as measured by "Total Cup Points."
 
