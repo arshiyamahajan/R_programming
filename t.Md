@@ -1,3 +1,6 @@
+# Leontief's Paradox
+
+
 | Year and Name of Author       | Sample                                | Year of Sample | Methodology                                   | Major Findings                                       |
 |-------------------------------|--------------------------------------|----------------|----------------------------------------------|-------------------------------------------------------|
 | 1956, Wassily Leontief        | U.S. imports and exports              | 1947           | Input-Output Analysis                        | Identified the paradox: U.S. exported labor-intensive goods but imported capital-intensive goods.             |
